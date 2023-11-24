@@ -2,12 +2,18 @@
 
 # compiled output
 /dist
+dist/
 /tmp
+tmp/
 /out-tsc
+app/**/*.js
+app/**/*.js.map
 
 # dependencies
 /node_modules
+node_modules/
 node_modules
+bower_components/
 
 # IDEs and editors
 /.idea
@@ -27,13 +33,23 @@ node_modules
 
 # misc
 /.sass-cache
+.sass-cache/
 /connect.lock
+connect.lock/
 /coverage
+coverage/
 /libpeerconnection.log
+libpeerconnection.log/
 npm-debug.log
 yarn-error.log
 testem.log
 /typings
+typings/
+.angular/
+
+# e2e
+e2e/*.js
+e2e/*.map
 
 # System Files
 .DS_Store
